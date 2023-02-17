@@ -1,0 +1,96 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+
+nav {
+margin: 10px;
+background-color: antiquewhite;
+display: inline;
+position: relative;
+bottom: 150px;
+font-size: 40pt;
+
+
+
+}
+header {
+   background-color: gray;
+   display: inline-block;
+   text-align: center;
+   font-size: 90pt;
+    
+}
+header h1 {
+    margin: 10px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+header img {
+    margin-right: 50px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    right: 150px;
+
+}
+
+.Project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+#recentapp img{
+    width: 500px;
+    height: 400px;
+
+}
+
+article img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+article img:hover {
+    opacity: 70%;
+}
+
+article h2 {
+    margin-top: 8px;
+    
+}
+article p {
+    margin-top: 8px;
+}
+
+
+
+#aboutme {
+    margin: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    font-size: larger;
+    display: block;
+
+}
+    
+
+  @media screen and (max-width: 768px) {
+    .Project { 
+      display: flex 30%;
+      width: 100%;
+    }
+}
